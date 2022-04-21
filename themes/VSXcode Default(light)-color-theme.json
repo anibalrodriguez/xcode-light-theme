@@ -69,7 +69,8 @@
 				"entity.other.attribute-name.pseudo-class.css",
 				"entity.other.attribute-name.pseudo-element.css",
 				"source.css.less entity.other.attribute-name.id",
-				"entity.other.attribute-name.scss"
+				"entity.other.attribute-name.scss",
+				"variable.other.macro.argument.cpp",
 			],
 			"settings": {
 				"foreground": "#815F03"
@@ -87,7 +88,8 @@
 				"keyword.control.preprocessor.conditional.swift"
 			],
 			"settings": {
-				"foreground": "#643820"
+				"foreground": "#643820",
+				"fontStyle": "",
 			}
 		},
 		{
@@ -131,7 +133,12 @@
 			}
 		},
 		{
-			"scope": "storage.type",
+			"scope": [
+				"storage.type",
+				"storage.type.objc",
+				"storage.type.objcpp",
+				"storage.type.cpp",
+			],
 			"settings": {
 				"foreground": "#9B2393"
 			}
@@ -187,9 +194,13 @@
 			}
 		},
 		{
-			"scope": "keyword.control",
+			"scope": [
+				"keyword.control",
+				"storage.type.built-in.primitive.objcpp",
+			],
 			"settings": {
-				"foreground": "#9B2393"
+				"foreground": "#9B2393",
+				"fontStyle": "bold",
 			}
 		},
 		{
@@ -261,9 +272,6 @@
 			}
 		},
 		{
-			"scope": "meta.interface-or-protocol.objc"
-		},
-		{
 			"scope": "keyword.other.unit",
 			"settings": {
 				"foreground": "#1C00CF"
@@ -332,18 +340,19 @@
 		"function.declaration": "#0F68A0",
 		"enumMember": "#326D74",
 		"enumMember.declaration": "#0F68A0",
-		"method.declaration": "#0F68A0",
+		"method.declaration": "#326D74",
 		"property.declaration": "#0F68A0",
 		"identifier:swift": "#0F68A0",
 		"class.defaultLibrary": "#3900A0",
 		"interface.defaultLibrary": "#3900A0",
 		"struct.defaultLibrary": "#3900A0",
-		"type.defaultLibrary": "#3900A0",
+		"type.defaultLibrary": "#9B2393",
 		"typeParameter.defaultLibrary": "#3900A0",
 		"function.defaultLibrary": "#6C36A9",
 		"enumMember.defaultLibrary": "#6C36A9",
 		"method.defaultLibrary": "#6C36A9",
 		"property.defaultLibrary": "#6C36A9",
-		"macro": "#643820"
-	}
+		"macro": "#643820",
+		"keyword": "#9B2393",
+	},
 }
