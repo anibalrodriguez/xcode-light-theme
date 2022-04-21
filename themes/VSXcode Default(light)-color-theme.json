@@ -216,6 +216,54 @@
 			}
 		},
 		{
+			"scope": [
+				"entity.other.inherited-class.objc",
+				"meta.interface-or-protocol.objc",
+			],
+			"settings": {
+				"foreground": "#3900A0",
+			}
+		},
+		{
+			"scope": [
+				"meta.argument-type.objc",
+				"meta.return-type.objc",
+			],
+			"settings": {
+				"foreground": "#1C00CF",
+			}
+		},
+		{
+			"scope": [
+				"variable.parameter.function.objc",
+			],
+			"settings": {
+				"foreground": "#000000",
+			}
+		},
+		{
+			"scope": "entity.name.type.objc",
+			"settings": {
+				"foreground": "#0B4F79",
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.type.begin.objc",
+				"punctuation.definition.type.end.objc",
+				"punctuation.section.scope.begin.objc",
+				"punctuation.section.scope.end.objc",
+				"punctuation.definition.entity.other.inherited-class.objc",
+				"punctuation.terminator.statement.objc",
+			],
+			"settings": {
+				"foreground": "#000000",
+			}
+		},
+		{
+			"scope": "meta.interface-or-protocol.objc"
+		},
+		{
 			"scope": "keyword.other.unit",
 			"settings": {
 				"foreground": "#1C00CF"
