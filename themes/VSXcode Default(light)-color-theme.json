@@ -1,0 +1,301 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "VSXcode Default(light)",
+	"colors": {
+		"editor.background": "#FFFFFF",
+		"editor.foreground": "#000000",
+		"list.activeSelectionIconForeground": "#fff",
+	},
+	"tokenColors": [
+		{
+			"scope": "emphasis",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "strong",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "header",
+			"settings": {
+				"foreground": "#000080"
+			}
+		},
+		{
+			"scope": "comment",
+			"settings": {
+				"foreground": "#5D6C79"
+			}
+		},
+		{
+			"scope": [
+				"constant.numeric",
+				"variable.other.enummember",
+				"keyword.operator.plus.exponent",
+				"keyword.operator.minus.exponent"
+			],
+			"settings": {
+				"foreground": "#1C00CF"
+			}
+		},
+		{
+			"scope": "constant.regexp",
+			"settings": {
+				"foreground": "#815F03"
+			}
+		},
+		{
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#9B2393"
+			}
+		},
+		{
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"foreground": "#815F03"
+			}
+		},
+		{
+			"scope": [
+				"entity.other.attribute-name.class.css",
+				"entity.other.attribute-name.class.mixin.css",
+				"entity.other.attribute-name.id.css",
+				"entity.other.attribute-name.parent-selector.css",
+				"entity.other.attribute-name.pseudo-class.css",
+				"entity.other.attribute-name.pseudo-element.css",
+				"source.css.less entity.other.attribute-name.id",
+				"entity.other.attribute-name.scss"
+			],
+			"settings": {
+				"foreground": "#815F03"
+			}
+		},
+		{
+			"scope": [
+				"meta.preprocessor",
+				"entity.name.function.preprocessor",
+				"keyword.control.directive.pragma",
+				"keyword.control.directive.include.objc",
+				"keyword.control.directive.include.objcpp",
+				"keyword.control.directive.import.objc",
+				"keyword.control.directive.import.objcpp",
+				"keyword.control.preprocessor.conditional.swift"
+			],
+			"settings": {
+				"foreground": "#643820"
+			}
+		},
+		{
+			"name": "Pragma Mark Name",
+			"scope": [
+				"entity.name.tag.pragma-mark"
+			],
+			"settings": {
+				"foreground": "#4A5560",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "meta.preprocessor.string",
+			"settings": {
+				"foreground": "#C41A16"
+			}
+		},
+		{
+			"scope": "meta.preprocessor.numeric",
+			"settings": {
+				"foreground": "#1C00CF"
+			}
+		},
+		{
+			"scope": "meta.structure.dictionary.key.python",
+			"settings": {
+				"foreground": "#632301"
+			}
+		},
+		{
+			"scope": "meta.diff.header",
+			"settings": {
+				"foreground": "#9B2393"
+			}
+		},
+		{
+			"scope": "storage",
+			"settings": {
+				"foreground": "#9B2393"
+			}
+		},
+		{
+			"scope": "storage.type",
+			"settings": {
+				"foreground": "#9B2393"
+			}
+		},
+		{
+			"scope": [
+				"storage.modifier",
+				"keyword.operator.noexcept"
+			],
+			"settings": {
+				"foreground": "#9B2393"
+			}
+		},
+		{
+			"scope": [
+				"string",
+				"meta.embedded.assembly"
+			],
+			"settings": {
+				"foreground": "#C41A16"
+			}
+		},
+		{
+			"scope": "string.tag",
+			"settings": {
+				"foreground": "#C41A16"
+			}
+		},
+		{
+			"scope": "string.value",
+			"settings": {
+				"foreground": "#C41A16"
+			}
+		},
+		{
+			"name": "String interpolation",
+			"scope": [
+				"punctuation.definition.template-expression.begin",
+				"punctuation.definition.template-expression.end",
+				"punctuation.section.embedded"
+			],
+			"settings": {
+				"foreground": "#9B2393"
+			}
+		},
+		{
+			"scope": [
+				"keyword",
+				"constant.language"
+			],
+			"settings": {
+				"foreground": "#9B2393"
+			}
+		},
+		{
+			"scope": "keyword.control",
+			"settings": {
+				"foreground": "#9B2393"
+			}
+		},
+		{
+			"scope": "keyword.operator",
+			"settings": {
+				"foreground": "#2b2b2b"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.new",
+				"keyword.operator.expression",
+				"keyword.operator.cast",
+				"keyword.operator.sizeof",
+				"keyword.operator.alignof",
+				"keyword.operator.typeid",
+				"keyword.operator.alignas",
+				"keyword.operator.instanceof",
+				"keyword.operator.logical.python",
+				"keyword.operator.wordlike"
+			],
+			"settings": {
+				"foreground": "#9B2393"
+			}
+		},
+		{
+			"scope": "keyword.other.unit",
+			"settings": {
+				"foreground": "#1C00CF"
+			}
+		},
+		{
+			"name": "this.self",
+			"scope": "variable.language",
+			"settings": {
+				"foreground": "#9B2393"
+			}
+		},
+		{
+			"name": "Function declarations",
+			"scope": [
+				"entity.name.function",
+				"support.function",
+				"support.constant.handlebars",
+				"source.powershell variable.other.member",
+				"variable.other.member.objc",
+				"variable.other.member.objcpp",
+				"variable.other.object.property",
+				"entity.name.operator.custom-literal",
+			],
+			"settings": {
+				"foreground": "#0F68A0"
+			}
+		},
+		{
+			"scope": "support.function.any-method.objc",
+			"settings": {
+				"foreground": "#6C36A9"
+			}
+		},
+		{
+			"name": "Control flow / Special keywords",
+			"scope": [
+				"keyword.control",
+				"source.cpp keyword.operator.new",
+				"keyword.operator.delete",
+				"keyword.other.using",
+				"keyword.other.operator",
+				"entity.name.operator",
+				"storage.type.objc"
+			],
+			"settings": {
+				"foreground": "#9B2393"
+			}
+		}
+	],
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"newOperator": "#9B2393",
+		"stringLiteral": "#C41A16",
+		"customLiteral": "#1C00CF",
+		"numberLiteral": "#1C00CF",
+		"property": "#326D74",
+		"class": "#1C464A",
+		"interface": "#1C464A",
+		"struct": "#1C464A",
+		"typeParameter": "#1C464A",
+		"class.declaration": "#0B4F79",
+		"interface.declaration": "#0B4F79",
+		"struct.declaration": "#0B4F79",
+		"function": "#326D74",
+		"function.declaration": "#0F68A0",
+		"enumMember": "#326D74",
+		"enumMember.declaration": "#0F68A0",
+		"method.declaration": "#0F68A0",
+		"property.declaration": "#0F68A0",
+		"identifier:swift": "#0F68A0",
+		"class.defaultLibrary": "#3900A0",
+		"interface.defaultLibrary": "#3900A0",
+		"struct.defaultLibrary": "#3900A0",
+		"type.defaultLibrary": "#3900A0",
+		"typeParameter.defaultLibrary": "#3900A0",
+		"function.defaultLibrary": "#6C36A9",
+		"enumMember.defaultLibrary": "#6C36A9",
+		"method.defaultLibrary": "#6C36A9",
+		"property.defaultLibrary": "#6C36A9",
+		"macro": "#643820"
+	}
+}

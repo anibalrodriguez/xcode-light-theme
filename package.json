@@ -1,0 +1,26 @@
+{
+    "name": "xcode-13-default-light",
+    "displayName": "Xcode 13 default light",
+    "description": "Xcode 13 light default theme for VS Code.",
+    "version": "0.0.0",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "publisher": "Anibal R.",
+    "categories": [
+        "Themes"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/anibalrodriguez/xcode-light-theme"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "VSXcode Default(light)",
+                "uiTheme": "vs",
+                "path": "./themes/VSXcode Default(light)-color-theme.json"
+            }
+        ]
+    }
+}
