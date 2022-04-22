@@ -4,7 +4,20 @@
 	"colors": {
 		"editor.background": "#FFFFFF",
 		"editor.foreground": "#000000",
-		"list.activeSelectionIconForeground": "#fff",
+		"editor.selectionHighlightBackground": "#EAEEF8",
+		"editor.wordHighlightBackground": "#EAEEF8",
+		"editor.lineHighlightBackground": "#EDF5FE",
+		"editor.wordHighlightStrongBackground": "#EAEEF8",
+		"editor.findMatchBackground": "#EAEEF8",
+		"editor.inactiveSelectionBackground": "#B6D7FC",
+		"editor.selectionBackground": "#D2D2D2",
+		"editorLineNumber.foreground": "#BCBCBC",
+		"editorLineNumber.activeForeground": "#000000",
+		"tab.activeBackground": "#D4E7FD",
+		"tab.activeBorder": "#D3D3D3",
+		"tab.inactiveBackground": "#FFFFFF",
+		"errorForeground": "#F9C3C1",
+		"editorWarning.foreground": "#FEEAB3",
 	},
 	"tokenColors": [
 		{
@@ -62,14 +75,6 @@
 		},
 		{
 			"scope": [
-				"entity.other.attribute-name.class.css",
-				"entity.other.attribute-name.class.mixin.css",
-				"entity.other.attribute-name.id.css",
-				"entity.other.attribute-name.parent-selector.css",
-				"entity.other.attribute-name.pseudo-class.css",
-				"entity.other.attribute-name.pseudo-element.css",
-				"source.css.less entity.other.attribute-name.id",
-				"entity.other.attribute-name.scss",
 				"variable.other.macro.argument.cpp",
 			],
 			"settings": {
@@ -320,7 +325,24 @@
 			"settings": {
 				"foreground": "#9B2393"
 			}
-		}
+		},
+		{
+			"name": "Types declaration and references",
+			"scope": [
+				"meta.return-type",
+				"support.class",
+				"support.type",
+				"entity.name.type",
+				"entity.name.namespace",
+				"entity.other.attribute",
+				"entity.name.scope-resolution",
+				"entity.name.class",
+				"entity.other.inherited-class",
+			],
+			"settings": {
+				"foreground": "#1C464A"
+			}
+		},
 	],
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
