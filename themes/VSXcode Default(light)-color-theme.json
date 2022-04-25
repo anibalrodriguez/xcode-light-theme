@@ -19,6 +19,9 @@
 		"editor.stackFrameHighlightBackground": "#E2F3E1",
 		"debugIcon.breakpointForeground": "#177BF5",
 		"debugIcon.breakpointCurrentStackframeForeground": "#177BF5",
+		"editor.findMatchBackground": "#EFE96E",
+		"editor.findMatchHighlightBackground": "#E4E4E4",
+		"editor.rangeHighlightBackground": "#EFE96E00",
 	},
 	"tokenColors": [
 		{
